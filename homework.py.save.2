@@ -1,0 +1,17 @@
+convert the time into military format and display it to the user
+time = input("enter the current time:")
+regtime = time.split(":")
+if regtime == -1:
+	index = -2
+	index = none
+print(regtime[0 + 1])
+
+
+def convert_to_24(time):
+	"""str -> str
+	converts 12 hours time format to 24 hours
+	"""
+return time[:-2] if time[-2:] == "AM" else str(int(time[:2]) + 12) + time[2:8]
+'''m = [0 + 1]'''
+'''h = [0 - 2]'''
+
